@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:instagram_clone_flutter/utils/colors.dart';
-import 'package:instagram_clone_flutter/utils/global_variable.dart';
-import 'package:instagram_clone_flutter/widgets/post_card.dart';
+import 'package:shardagram/utils/colors.dart';
+import 'package:shardagram/utils/global_variable.dart';
+import 'package:shardagram/widgets/post_card.dart';
 
 class FeedScreen extends StatefulWidget {
   const FeedScreen({Key? key}) : super(key: key);
@@ -26,9 +26,9 @@ class _FeedScreenState extends State<FeedScreen> {
               backgroundColor: mobileBackgroundColor,
               centerTitle: false,
               title: Image.asset(
-                'assets/logo_big.png',
+                'assets/logo_mini.png',
                 color: primaryColor,
-                height: 64,
+                height: 26,
               ),
               //  SvgPicture.asset(
               //   'assets/ic_instagram.svg',

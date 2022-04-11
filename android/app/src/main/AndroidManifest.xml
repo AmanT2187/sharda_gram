@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.amati.shardagram">
    <application
-        android:label="instagram_clone_flutter"
+        android:label="shardagram"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
